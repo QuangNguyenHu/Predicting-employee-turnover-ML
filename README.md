@@ -55,11 +55,11 @@ Bộ dữ liệu không có giá trị thiếu, nhưng lớp Attrition bị mấ
 # Pipeline
 Pipeline xử lý dữ liệu và mô hình được xây dựng bằng Python với scikit-learn, bao gồm các bước:
 + Tiền Xử Lý (Preprocessing):
-Loại bỏ cột không hữu ích (EmployeeCount, EmployeeNumber, Over18, StandardHours).
-Mã hóa biến categorical (Label Encoding).
-Xử lý mất cân bằng lớp bằng SMOTE (Synthetic Minority Over-sampling Technique).
-Chia dữ liệu thành train/test (80/20) với StratifiedKFold để giữ tỷ lệ lớp.
-Scale dữ liệu numerical bằng StandardScaler.
+- *Loại bỏ cột không hữu ích (EmployeeCount, EmployeeNumber, Over18, StandardHours).*
+- *Mã hóa biến categorical (Label Encoding).*
+- *Xử lý mất cân bằng lớp bằng SMOTE (Synthetic Minority Over-sampling Technique).*
+- *Chia dữ liệu thành train/test (80/20) với StratifiedKFold để giữ tỷ lệ lớp.*
+- *Scale dữ liệu numerical bằng StandardScaler.*
 
 + Train:
 Fit mô hình trên dữ liệu train đã xử lý (ví dụ: LogisticRegression() và RandomForestClassifier()).
@@ -80,22 +80,22 @@ Sau huấn luyện và đánh giá trên test set:
 - **Logistic Regression**: Accuracy: 0.7789, Precision: 0.3030, Recall: 0.5128, F1-Score: 0.3810, ROC-AUC: 0.7565.
 - **Random Forest**: Accuracy: 0.8742, Precision: 0.5556, Recall: 0.2564, F1-Score: 0.3509, ROC-AUC: 0.7373.
 - *Confusion Matrix cho RF (dựa trên ví dụ trong code, có thể thay đổi tùy run):*
-|           | Predicted No | Predicted Yes |
-|-----------|--------------|---------------|
-| Actual No | 250          | 20            |
-| Actual Yes| 15           | 80            |
+- *|           | Predicted No | Predicted Yes |*
+- *|-----------|--------------|---------------|*
+- *| Actual No | 250          | 20            |*
+- *| Actual Yes| 15           | 80            |*
 - *Feature importance từ RF: OverTime (cao nhất), MonthlyIncome, JobSatisfaction, etc. Kết quả cho thấy RF có accuracy cao hơn nhưng recall thấp hơn LR, ưu tiên giảm false negatives (bỏ sót nhân viên nghỉ việc) nếu chọn LR.*
 # Hướng Dẫn Chạy
 # Cài Môi Trường
 Yêu cầu: Python 3.11+, pip.
 Cài đặt libraries: Chạy lệnh pip install -r requirements.txt, với requirements.txt chứa:
-pandas
-numpy
-scikit-learn
-imbalanced-learn
-matplotlib
-seaborn
-joblib
+- *pandas*
+- *numpy*
+- *scikit-learn*
+- *imbalanced-learn*
+- *matplotlib*
+- *seaborn*
+- *joblib*
 -Tải dataset và đặt vào thư mục data/.
 # Chạy Train
 Chạy file Jupyter Notebook employee_quits.ipynb: Mở bằng Jupyter và chạy tất cả cells.
