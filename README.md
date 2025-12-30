@@ -79,12 +79,12 @@ Lý do chọn các mô hình này: Bắt đầu từ đơn giản (LR) đến ph
 Sau huấn luyện và đánh giá trên test set:
 - **Logistic Regression**: Accuracy: 0.7789, Precision: 0.3030, Recall: 0.5128, F1-Score: 0.3810, ROC-AUC: 0.7565.
 - **Random Forest**: Accuracy: 0.8742, Precision: 0.5556, Recall: 0.2564, F1-Score: 0.3509, ROC-AUC: 0.7373.
-Confusion Matrix cho RF (dựa trên ví dụ trong code, có thể thay đổi tùy run):
+- *Confusion Matrix cho RF (dựa trên ví dụ trong code, có thể thay đổi tùy run):*
 |           | Predicted No | Predicted Yes |
 |-----------|--------------|---------------|
 | Actual No | 250          | 20            |
 | Actual Yes| 15           | 80            |
-Feature importance từ RF: OverTime (cao nhất), MonthlyIncome, JobSatisfaction, etc. Kết quả cho thấy RF có accuracy cao hơn nhưng recall thấp hơn LR, ưu tiên giảm false negatives (bỏ sót nhân viên nghỉ việc) nếu chọn LR.
+- *Feature importance từ RF: OverTime (cao nhất), MonthlyIncome, JobSatisfaction, etc. Kết quả cho thấy RF có accuracy cao hơn nhưng recall thấp hơn LR, ưu tiên giảm false negatives (bỏ sót nhân viên nghỉ việc) nếu chọn LR.*
 # Hướng Dẫn Chạy
 # Cài Môi Trường
 Yêu cầu: Python 3.11+, pip.
