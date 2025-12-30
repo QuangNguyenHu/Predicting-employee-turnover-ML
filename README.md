@@ -15,41 +15,41 @@ Link tải: https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attri
 File chính: WA_Fn-UseC_-HR-Employee-Attrition.csv
 # Mô Tả Cột
 Bộ dữ liệu có 35 cột, bao gồm:
--Age: Tuổi của nhân viên (số nguyên, ví dụ: 18-60).
--Attrition: Biến mục tiêu, "Yes" nếu nghỉ việc, "No" nếu không (phân loại nhị phân).
--BusinessTravel: Tần suất đi công tác (categorical: Non-Travel, Travel_Rarely, Travel_Frequently).
--DailyRate: Lương hàng ngày (số nguyên, USD).
--Department: Bộ phận (categorical: Sales, Research & Development, Human Resources).
--DistanceFromHome: Khoảng cách từ nhà đến văn phòng (số nguyên, km).
--Education: Mức độ giáo dục (ordinal: 1-5, từ Below College đến Doctor).
--EducationField: Lĩnh vực học vấn (categorical: Life Sciences, Medical, Marketing, etc.).
--EmployeeCount: Luôn là 1 (không hữu ích, có thể loại bỏ).
--EmployeeNumber: ID nhân viên (unique identifier).
--EnvironmentSatisfaction: Mức độ hài lòng với môi trường làm việc (ordinal: 1-4).
--Gender: Giới tính (categorical: Male, Female).
--HourlyRate: Lương giờ (số nguyên).
--JobInvolvement: Mức độ tham gia công việc (ordinal: 1-4).
--JobLevel: Cấp bậc công việc (ordinal: 1-5).
--JobRole: Vai trò công việc (categorical: Sales Executive, Research Scientist, etc.).
--JobSatisfaction: Mức độ hài lòng công việc (ordinal: 1-4).
--MaritalStatus: Tình trạng hôn nhân (categorical: Single, Married, Divorced).
--MonthlyIncome: Thu nhập hàng tháng (số nguyên, USD).
--MonthlyRate: Tỷ lệ hàng tháng (số nguyên).
--NumCompaniesWorked: Số công ty đã làm việc (số nguyên: 0-9).
--Over18: Luôn "Y" (không hữu ích).
--OverTime: Làm thêm giờ (categorical: Yes, No).
--PercentSalaryHike: Phần trăm tăng lương (số nguyên: 11-25).
--PerformanceRating: Đánh giá hiệu suất (ordinal: 3-4).
--RelationshipSatisfaction: Mức độ hài lòng mối quan hệ (ordinal: 1-4).
--StandardHours: Giờ làm chuẩn (luôn 80, không hữu ích).
--StockOptionLevel: Mức độ cổ phiếu (ordinal: 0-3).
--TotalWorkingYears: Tổng năm kinh nghiệm (số nguyên: 0-40).
--TrainingTimesLastYear: Số lần đào tạo năm trước (số nguyên: 0-6).
--WorkLifeBalance: Cân bằng công việc-cuộc sống (ordinal: 1-4).
--YearsAtCompany: Năm tại công ty (số nguyên: 0-40).
--YearsInCurrentRole: Năm ở vai trò hiện tại (số nguyên: 0-18).
--YearsSinceLastPromotion: Năm kể từ thăng chức cuối (số nguyên: 0-15).
--YearsWithCurrManager: Năm với quản lý hiện tại (số nguyên: 0-17).
+- **Age**: Tuổi của nhân viên (số nguyên, ví dụ: 18-60).
+- **Attrition**: Biến mục tiêu, "Yes" nếu nghỉ việc, "No" nếu không (phân loại nhị phân).
+- **BusinessTravel**: Tần suất đi công tác (categorical: Non-Travel, Travel_Rarely, Travel_Frequently).
+- **DailyRate**: Lương hàng ngày (số nguyên, USD).
+- **Department**: Bộ phận (categorical: Sales, Research & Development, Human Resources).
+- **DistanceFromHome**: Khoảng cách từ nhà đến văn phòng (số nguyên, km).
+- **Education**: Mức độ giáo dục (ordinal: 1-5, từ Below College đến Doctor).
+- **EducationField**: Lĩnh vực học vấn (categorical: Life Sciences, Medical, Marketing, etc.).
+- **EmployeeCount**: Luôn là 1 (không hữu ích, có thể loại bỏ).
+- **EmployeeNumber**: ID nhân viên (unique identifier).
+- **EnvironmentSatisfaction**: Mức độ hài lòng với môi trường làm việc (ordinal: 1-4).
+- **Gender**: Giới tính (categorical: Male, Female).
+- **HourlyRate**: Lương giờ (số nguyên).
+- **JobInvolvement**: Mức độ tham gia công việc (ordinal: 1-4).
+- **JobLevel**: Cấp bậc công việc (ordinal: 1-5).
+- **JobRole**: Vai trò công việc (categorical: Sales Executive, Research Scientist, etc.).
+- **JobSatisfaction**: Mức độ hài lòng công việc (ordinal: 1-4).
+- **MaritalStatus**: Tình trạng hôn nhân (categorical: Single, Married, Divorced).
+- **MonthlyIncome**: Thu nhập hàng tháng (số nguyên, USD).
+- **MonthlyRate**: Tỷ lệ hàng tháng (số nguyên).
+- **NumCompaniesWorked**: Số công ty đã làm việc (số nguyên: 0-9).
+- **Over18**: Luôn "Y" (không hữu ích).
+- **OverTime**: Làm thêm giờ (categorical: Yes, No).
+- **PercentSalaryHike**: Phần trăm tăng lương (số nguyên: 11-25).
+- **PerformanceRating**: Đánh giá hiệu suất (ordinal: 3-4).
+- **RelationshipSatisfaction**: Mức độ hài lòng mối quan hệ (ordinal: 1-4).
+- **StandardHours**: Giờ làm chuẩn (luôn 80, không hữu ích).
+- **StockOptionLevel**: Mức độ cổ phiếu (ordinal: 0-3).
+- **TotalWorkingYears**: Tổng năm kinh nghiệm (số nguyên: 0-40).
+- **TrainingTimesLastYear**: Số lần đào tạo năm trước (số nguyên: 0-6).
+- **WorkLifeBalance**: Cân bằng công việc-cuộc sống (ordinal: 1-4).
+- **YearsAtCompany**: Năm tại công ty (số nguyên: 0-40).
+- **YearsInCurrentRole**: Năm ở vai trò hiện tại (số nguyên: 0-18).
+- **YearsSinceLastPromotion**: Năm kể từ thăng chức cuối (số nguyên: 0-15).
+- **YearsWithCurrManager**: Năm với quản lý hiện tại (số nguyên: 0-17).
 
 Bộ dữ liệu không có giá trị thiếu, nhưng lớp Attrition bị mất cân bằng (khoảng 84% No, 16% Yes).
 # Pipeline
@@ -77,12 +77,13 @@ Các mô hình được sử dụng bao gồm:
 Lý do chọn các mô hình này: Bắt đầu từ đơn giản (LR) đến phức tạp (RF) để so sánh, tập trung vào khả năng giải thích và độ chính xác cao cho bài toán HR.
 #Kết Quả
 Sau huấn luyện và đánh giá trên test set:
-Logistic Regression: Accuracy: 0.7789, Precision: 0.3030, Recall: 0.5128, F1-Score: 0.3810, ROC-AUC: 0.7565.
-Random Forest: Accuracy: 0.8742, Precision: 0.5556, Recall: 0.2564, F1-Score: 0.3509, ROC-AUC: 0.7373.
+- **Logistic Regression**: Accuracy: 0.7789, Precision: 0.3030, Recall: 0.5128, F1-Score: 0.3810, ROC-AUC: 0.7565.
+- **Random Forest**: Accuracy: 0.8742, Precision: 0.5556, Recall: 0.2564, F1-Score: 0.3509, ROC-AUC: 0.7373.
 Confusion Matrix cho RF (dựa trên ví dụ trong code, có thể thay đổi tùy run):
-           Predicted No      Predicted Yes
-Actual No     250               20
-Actual Yes    15                80
+|           | Predicted No | Predicted Yes |
+|-----------|--------------|---------------|
+| Actual No | 250          | 20            |
+| Actual Yes| 15           | 80            |
 Feature importance từ RF: OverTime (cao nhất), MonthlyIncome, JobSatisfaction, etc. Kết quả cho thấy RF có accuracy cao hơn nhưng recall thấp hơn LR, ưu tiên giảm false negatives (bỏ sót nhân viên nghỉ việc) nếu chọn LR.
 # Hướng Dẫn Chạy
 # Cài Môi Trường
