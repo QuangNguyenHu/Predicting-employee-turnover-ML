@@ -12,17 +12,11 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 # Đọc dữ liệu
 df = pd.read_csv('WA_Fn-UseC_-HR-Employee-Attrition.csv')
-
 df.head()
-
 df.info()
-
 df.describe().T
-
 df.dtypes
-
 df.nunique()
-
 #Tiền xử lý dữ liệu
 df.duplicated().sum()# kiểm tra dữ liệu trùng lặp
 df.isnull().sum()# kiểm tra dữ liệu thiếu
