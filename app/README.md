@@ -1,24 +1,15 @@
-# Khai báo thư viện
+## Khai báo thư viện
+```python
 import pandas as pd
-
 import numpy as np
-
 from sklearn.preprocessing import StandardScaler, LabelEncoder
-
 from sklearn.model_selection import train_test_split
-
 from imblearn.over_sampling import SMOTE
-
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
-
 from sklearn.metrics import roc_auc_score, precision_score, recall_score, f1_score
-
 from sklearn.metrics import ConfusionMatrixDisplay, RocCurveDisplay, PrecisionRecallDisplay
-
 from sklearn.linear_model import LogisticRegression
-
 from sklearn.ensemble import RandomForestClassifier
-
 # Đọc dữ liệu
 df = pd.read_csv('WA_Fn-UseC_-HR-Employee-Attrition.csv')
 
